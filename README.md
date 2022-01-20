@@ -1,1 +1,0 @@
-# Daniyar771992.github.io
