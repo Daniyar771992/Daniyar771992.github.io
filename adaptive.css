@@ -1,0 +1,139 @@
+.burger{
+    display: none;
+}
+@media(max-width:1280px){
+    .offset{
+        max-width: 640px;
+    }
+@media(max-width:960px){
+    nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+}
+}
+
+@media(max-width:960px){
+    .training_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .training_top h4{
+        display: none;
+    }
+    .training_bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .training_bottom h3{
+        display: none;
+    }
+    .running .see_more_training{
+        display: none;
+    }
+    .lifting .see_more_training{
+        display: none;
+    }
+    .see_more_training_btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:960px){
+    .team_top p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .trainers_top{
+        display: flex;
+        flex-direction: row;
+    }
+    .trainers_top .see_more_team_btn{
+        display: none;
+    }
+    .team_bottom h2{
+        font-family: Poppins;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E5E5E5;
+    }
+    .team_bottom h3{
+        display: none;
+    }
+    .team_bottom h4{
+        display: none;
+    }
+    .trainers_bottom{
+        display: flex;
+        flex-direction: row;
+    }
+    .annie .see_more_team_btn{
+        display: none;
+    }
+}
+
+@media(max-width:960px){
+    .potencial{
+        max-width: auto;
+    }
+    .potencial h2{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.215em;
+        color: #FFFFFF;
+    }
+}
+
+@media(max-width:640px){
+    .offset{
+        max-width: 480px;
+    }
+}
+
+@media(max-width:480px){
+    .offset{
+        max-width: 414px;
+    }
+}
+
+@media(max-width:414px){
+    .offset{
+        max-width: 320px;
+    }
+}
+
+@media(max-width:320px){
+    .offset{
+        max-width: 300px;
+    }
+}
